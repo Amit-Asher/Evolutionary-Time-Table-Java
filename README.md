@@ -8,7 +8,7 @@ The software was written in Java using Multi-threading, Design Patterns and Seri
 
 ## How to use
 
-Run the software and press 'Browse' to load a test file from 'TestFiles' directory.
+Run the software from Run/Run.bat and press 'Browse' to load a test file from 'TestFiles' directory.
 
 Choose at least one from the stopping conditions- by Generation, Fitness or Time.
 
