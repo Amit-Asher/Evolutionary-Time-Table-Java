@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="DesktopApp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DesktopApp_jar</output-path>
+    <root id="root">
+      <element id="archive" name="DesktopApp.jar">
+        <element id="module-output" name="DesktopApp" />
+      </element>
+    </root>
+  </artifact>
+</component>
