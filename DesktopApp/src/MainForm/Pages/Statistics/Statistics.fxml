@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="VBoxStatistics" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" styleClass="-center-pane" xmlns="http://javafx.com/javafx/8.0.291" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainForm.Pages.Statistics.StatisticsController">
+   <children>
+      <HBox prefWidth="200.0">
+         <children>
+            <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="Evolution Improvement Graph (Generation/Fitness)" HBox.hgrow="ALWAYS">
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <LineChart fx:id="LineChart" VBox.vgrow="ALWAYS">
+        <xAxis>
+          <CategoryAxis fx:id="GenerationAxis" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="FitnessAxis" side="LEFT" />
+        </yAxis>
+      </LineChart>
+   </children>
+</VBox>

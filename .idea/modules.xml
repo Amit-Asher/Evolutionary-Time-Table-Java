@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DeployEvolution.iml" filepath="$PROJECT_DIR$/DeployEvolution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesktopApp/DesktopApp.iml" filepath="$PROJECT_DIR$/DesktopApp/DesktopApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dependencies/Evolution/Evolution.iml" filepath="$PROJECT_DIR$/Dependencies/Evolution/Evolution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dependencies/EvolutionaryTimeTable/EvolutionaryTimeTable.iml" filepath="$PROJECT_DIR$/Dependencies/EvolutionaryTimeTable/EvolutionaryTimeTable.iml" />
+    </modules>
+  </component>
+</project>
