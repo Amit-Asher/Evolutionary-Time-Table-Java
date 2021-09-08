@@ -187,9 +187,7 @@ public class SolutionController implements Initializable {
         LabelGenerationCount.setVisible(true);
         LabelHistoryMsg.setVisible(true);
         historyDocuments = modelRef.GetGenerationHistory();
-        System.out.println("start");
         currentHistoryIdx = historyDocuments.size() - 1;
-        System.out.println("end");
         LabelGenerationCount.setText(Integer.toString(historyDocuments.get(currentHistoryIdx).getGenerationDoc()));
     }
 

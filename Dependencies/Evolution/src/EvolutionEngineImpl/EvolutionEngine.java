@@ -265,7 +265,6 @@ public class EvolutionEngine<T extends Solution> {
         while(!stopConditionOccurred(numOfGenerations,stopFitness,stopTimeInSeconds)) {
             checkPause();
             if(threadWasInterrupted()) break;
-            System.out.println(Thread.currentThread().getName());
             List<T> elite = selection.GetElite(solution2Fitness);
             List<T> survivors = selection.Run(solution2Fitness);
             curPopulation = createNewGeneration(survivors, elite);
